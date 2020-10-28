@@ -27,9 +27,4 @@ public class Car extends Vehicle {
     private double carFuelConsumption() {
         return getAverageFuelConsumption() + 0.8;
     }
-
-    @Override
-    public double calculateRange() {
-        return super.calculateRange();
-    }
 }

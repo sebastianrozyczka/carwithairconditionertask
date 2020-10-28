@@ -27,7 +27,5 @@ public class Application {
         truck.setAirConditionerOn(true);
         System.out.println("Po włączeniu klimatyzacji spalanie ciężarówki to: " + truck.calculateFuelConsumption() + "l/100km");
         System.out.println("Z bakiem o pojemności " + truck.getTankCapacity() + "l pozwala jej to na przejechanie " + truck.calculateRange() + "km");
-
-
     }
 }

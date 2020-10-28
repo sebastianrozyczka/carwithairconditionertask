@@ -30,9 +30,4 @@ public class Truck extends Car {
         }
         return averageFuelConsumption;
     }
-
-    @Override
-    public double calculateRange() {
-        return super.calculateRange();
-    }
 }
